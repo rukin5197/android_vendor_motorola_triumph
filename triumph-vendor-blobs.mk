@@ -52,8 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/hostapd:/system/bin/hostapd \
     vendor/motorola/triumph/proprietary/hostapd_cli:/system/bin/hostapd_cli
 
-#    vendor/motorola/triumph/proprietary/bluetoothd:system/bin/bluetoothd \
-
 # Audio
 PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libaudioalsa.so:system/lib/libaudioalsa.so \
