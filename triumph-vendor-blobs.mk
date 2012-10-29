@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
 
 # other binaries
 PRODUCT_COPY_FILES += \
+    vendor/motorola/triumph/proprietary/bluetoothd:system/bin/bluetoothd \
     vendor/motorola/triumph/proprietary/hciattach:system/bin/hciattach \
     vendor/motorola/triumph/proprietary/netmgrd:system/bin/netmgrd \
     vendor/motorola/triumph/proprietary/port-bridge:system/bin/port-bridge \
@@ -50,7 +51,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/btwlancoex:system/bin/btwlancoex \
     vendor/motorola/triumph/proprietary/cnd:system/bin/cnd \
     vendor/motorola/triumph/proprietary/hostapd:/system/bin/hostapd \
-    vendor/motorola/triumph/proprietary/hostapd_cli:/system/bin/hostapd_cli
+    vendor/motorola/triumph/proprietary/hostapd_cli:/system/bin/hostapd_cli \
+    vendor/motorola/triumph/proprietary/rmt_storage:/system/bin/rmt_storage
 
 # Audio
 PRODUCT_COPY_FILES += \
