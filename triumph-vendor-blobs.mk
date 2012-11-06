@@ -192,39 +192,39 @@ PRODUCT_COPY_FILES += \
 
 
 # Google Now Apps September 2012
-PRODUCT_COPY_FILES += \
-    vendor/motorola/triumph/googlenow/app/GoogleTTS.apk:/system/app/GoogleTTS.apk \
-    vendor/motorola/triumph/googlenow/app/Velvet.apk:/system/app/Velvet.apk \
+#PRODUCT_COPY_FILES += \
+#    vendor/motorola/triumph/googlenow/app/GoogleTTS.apk:/system/app/GoogleTTS.apk \
+#    vendor/motorola/triumph/googlenow/app/Velvet.apk:/system/app/Velvet.apk \
 
 # Google Now Libs
-PRODUCT_COPY_FILES += \
-    vendor/motorola/triumph/googlenow/lib/libgoogle_recognizer_jni.so:/system/lib/libgoogle_recognizer_jni.so \
-    vendor/motorola/triumph/googlenow/lib/libpatts_engine_jni_api.so:/system/lib/libpatts_engine_jni_api.so \
-    vendor/motorola/triumph/googlenow/lib/libspeexwrapper.so:/system/lib/libspeexwrapper.so \
-    vendor/motorola/triumph/googlenow/lib/libvorbisencoder.so:/system/lib/libvorbisencoder.so 
+#PRODUCT_COPY_FILES += \
+#    vendor/motorola/triumph/googlenow/lib/libgoogle_recognizer_jni.so:/system/lib/libgoogle_recognizer_jni.so \
+#    vendor/motorola/triumph/googlenow/lib/libpatts_engine_jni_api.so:/system/lib/libpatts_engine_jni_api.so \
+#    vendor/motorola/triumph/googlenow/lib/libspeexwrapper.so:/system/lib/libspeexwrapper.so \
+#    vendor/motorola/triumph/googlenow/lib/libvorbisencoder.so:/system/lib/libvorbisencoder.so 
 
 # Google Now usr Files
-PRODUCT_COPY_FILES += \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/c_fst:/system/usr/srec/en-US/c_fst \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/compile_grammar.config:/system/usr/srec/en-US/compile_grammar.config \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/contacts.abnf:/system/usr/srec/en-US/contacts.abnf \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/dict:/system/usr/srec/en-US/dict \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/dictation.config:/system/usr/srec/en-US/dictation.config \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/embed_phone_nn_model:/system/usr/srec/en-US/embed_phone_nn_model \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/embed_phone_nn_state_sym:/system/usr/srec/en-US/embed_phone_nn_state_sym \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/endpointer_dictation.config:/system/usr/srec/en-US/endpointer_dictation.config \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/endpointer_voicesearch.config:/system/usr/srec/en-US/endpointer_voicesearch.config \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/ep_acoustic_model:/system/usr/srec/en-US/ep_acoustic_model \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/google_hotword.config:/system/usr/srec/en-US/google_hotword.config \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/google_hotword_clg:/system/usr/srec/en-US/google_hotword_clg \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/google_hotword_logistic:/system/usr/srec/en-US/google_hotword_logistic \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/grammar.config:/system/usr/srec/en-US/grammar.config \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/hmmsyms:/system/usr/srec/en-US/hmmsyms \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/hotword_symbols:/system/usr/srec/en-US/hotword_symbols \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/lintrans_model:/system/usr/srec/en-US/lintrans_model \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/metadata:/system/usr/srec/en-US/metadata \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/normalizer:/system/usr/srec/en-US/normalizer \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/norm_fst:/system/usr/srec/en-US/norm_fst \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/phonelist:/system/usr/srec/en-US/phonelist \
-    vendor/motorola/triumph/googlenow/usr/srec/en-US/symbols:/system/usr/srec/en-US/symbols
+#PRODUCT_COPY_FILES += \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/c_fst:/system/usr/srec/en-US/c_fst \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/compile_grammar.config:/system/usr/srec/en-US/compile_grammar.config \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/contacts.abnf:/system/usr/srec/en-US/contacts.abnf \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/dict:/system/usr/srec/en-US/dict \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/dictation.config:/system/usr/srec/en-US/dictation.config \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/embed_phone_nn_model:/system/usr/srec/en-US/embed_phone_nn_model \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/embed_phone_nn_state_sym:/system/usr/srec/en-US/embed_phone_nn_state_sym \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/endpointer_dictation.config:/system/usr/srec/en-US/endpointer_dictation.config \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/endpointer_voicesearch.config:/system/usr/srec/en-US/endpointer_voicesearch.config \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/ep_acoustic_model:/system/usr/srec/en-US/ep_acoustic_model \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/google_hotword.config:/system/usr/srec/en-US/google_hotword.config \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/google_hotword_clg:/system/usr/srec/en-US/google_hotword_clg \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/google_hotword_logistic:/system/usr/srec/en-US/google_hotword_logistic \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/grammar.config:/system/usr/srec/en-US/grammar.config \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/hmmsyms:/system/usr/srec/en-US/hmmsyms \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/hotword_symbols:/system/usr/srec/en-US/hotword_symbols \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/lintrans_model:/system/usr/srec/en-US/lintrans_model \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/metadata:/system/usr/srec/en-US/metadata \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/normalizer:/system/usr/srec/en-US/normalizer \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/norm_fst:/system/usr/srec/en-US/norm_fst \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/phonelist:/system/usr/srec/en-US/phonelist \
+#    vendor/motorola/triumph/googlenow/usr/srec/en-US/symbols:/system/usr/srec/en-US/symbols
 
