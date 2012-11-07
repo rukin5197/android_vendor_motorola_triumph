@@ -17,9 +17,11 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
     vendor/motorola/triumph/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/motorola/triumph/proprietary/libcamera.so:obj/lib/libcamera.so \
 
 # Camera
 PRODUCT_COPY_FILES += \
+    vendor/motorola/triumph/proprietary/libcamera.so:system/lib/libcamera.so \
     vendor/motorola/triumph/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/motorola/triumph/proprietary/libgemini.so:system/lib/libgemini.so \
     vendor/motorola/triumph/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -56,10 +58,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libaudioalsa.so:system/lib/libaudioalsa.so \
 
-# GPS
+# GPS files from BSydz Froyo Sharp, FAST LOCKS BABY!!!!
 PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libcommondefs.so:obj/lib/libcommondefs.so \
-    vendor/motorola/triumph/proprietary/libcommondefs.so:system/lib/libcommondefs.so
+    vendor/motorola/triumph/proprietary/libcommondefs.so:system/lib/libcommondefs.so \
+    vendor/motorola/triumph/proprietary/libloc.so:system/lib/libloc.so \
+    vendor/motorola/triumph/proprietary/libloc_api.so:system/lib/libloc_api.so \
+    vendor/motorola/triumph/proprietary/libloc_ext.so:system/lib/libloc_ext.so \
+    vendor/motorola/triumph/proprietary/libloc-rpc.so:system/lib/libloc-rpc.so \
+    vendor/motorola/triumph/proprietary/libgps.so:system/lib/libgps.so \
+    vendor/motorola/triumph/proprietary/GpsDeleter.apk:system/app/GpsDeleter.apk \
+    vendor/motorola/triumph/proprietary/gps_log_tools.apk:system/app/gps_log_tools.apk
 
 # OMX
 PRODUCT_COPY_FILES += \
