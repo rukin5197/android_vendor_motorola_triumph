@@ -39,7 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/proximityd:system/bin/proximityd \
     vendor/motorola/triumph/proprietary/lightd:system/bin/lightd \
     vendor/motorola/triumph/proprietary/thermald:system/bin/thermald \
-    vendor/motorola/triumph/proprietary/sensors.triumph.so:/system/lib/hw/sensors.triumph.so
+    vendor/motorola/triumph/proprietary/sensors.qcom.so:/system/lib/hw/sensors.triumph.so
 
 # other binaries
 PRODUCT_COPY_FILES += \
