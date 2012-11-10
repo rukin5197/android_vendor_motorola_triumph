@@ -58,7 +58,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libaudioalsa.so:system/lib/libaudioalsa.so \
 
-# GPS files from BSydz Froyo Sharp, FAST LOCKS BABY!!!!
+# GPS files from Cherry 2.3.5
 PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libcommondefs.so:obj/lib/libcommondefs.so \
     vendor/motorola/triumph/proprietary/libcommondefs.so:system/lib/libcommondefs.so \
@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libloc_api.so:system/lib/libloc_api.so \
     vendor/motorola/triumph/proprietary/libloc_ext.so:system/lib/libloc_ext.so \
     vendor/motorola/triumph/proprietary/libloc-rpc.so:system/lib/libloc-rpc.so \
-    vendor/motorola/triumph/proprietary/libgps.so:system/lib/libgps.so \
     vendor/motorola/triumph/proprietary/GpsDeleter.apk:system/app/GpsDeleter.apk \
     vendor/motorola/triumph/proprietary/gps_log_tools.apk:system/app/gps_log_tools.apk
 
