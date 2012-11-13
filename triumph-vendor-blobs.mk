@@ -19,29 +19,11 @@ PRODUCT_COPY_FILES := \
     vendor/motorola/triumph/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/motorola/triumph/proprietary/libcamera.so:obj/lib/libcamera.so \
 
-# Camera
+# Audio
 PRODUCT_COPY_FILES += \
-    vendor/motorola/triumph/proprietary/libcamera.so:system/lib/libcamera.so \
-    vendor/motorola/triumph/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/motorola/triumph/proprietary/libgemini.so:system/lib/libgemini.so \
-    vendor/motorola/triumph/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/motorola/triumph/proprietary/libmmipl.so:system/lib/libmmipl.so
+    vendor/motorola/triumph/proprietary/libaudioalsa.so:system/lib/libaudioalsa.so
 
-# HW init
-PRODUCT_COPY_FILES += \
-    vendor/motorola/triumph/proprietary/qmuxd:system/bin/qmuxd \
-    vendor/motorola/triumph/proprietary/hci_qcomm_init:system/bin/hci_qcomm_init
-
-# Sensors binaries
-PRODUCT_COPY_FILES += \
-    vendor/motorola/triumph/proprietary/geomagneticd:system/bin/geomagneticd \
-    vendor/motorola/triumph/proprietary/orientationd:system/bin/orientationd \
-    vendor/motorola/triumph/proprietary/proximityd:system/bin/proximityd \
-    vendor/motorola/triumph/proprietary/lightd:system/bin/lightd \
-    vendor/motorola/triumph/proprietary/thermald:system/bin/thermald \
-    vendor/motorola/triumph/proprietary/sensors.qcom.so:/system/lib/hw/sensors.triumph.so
-
-# other binaries
+# BIN
 PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/bluetoothd:system/bin/bluetoothd \
     vendor/motorola/triumph/proprietary/hciattach:system/bin/hciattach \
@@ -52,11 +34,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/cnd:system/bin/cnd \
     vendor/motorola/triumph/proprietary/hostapd:/system/bin/hostapd \
     vendor/motorola/triumph/proprietary/hostapd_cli:/system/bin/hostapd_cli \
-    vendor/motorola/triumph/proprietary/rmt_storage:/system/bin/rmt_storage
+    vendor/motorola/triumph/proprietary/rmt_storage:/system/bin/rmt_storage \
+    vendor/motorola/triumph/proprietary/qmuxd:system/bin/qmuxd \
+    vendor/motorola/triumph/proprietary/hci_qcomm_init:system/bin/hci_qcomm_init
 
-# Audio
+# Camera
 PRODUCT_COPY_FILES += \
-    vendor/motorola/triumph/proprietary/libaudioalsa.so:system/lib/libaudioalsa.so \
+    vendor/motorola/triumph/proprietary/libcamera.so:system/lib/libcamera.so \
+    vendor/motorola/triumph/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/motorola/triumph/proprietary/libgemini.so:system/lib/libgemini.so \
+    vendor/motorola/triumph/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/motorola/triumph/proprietary/libmmipl.so:system/lib/libmmipl.so
 
 # GPS files from Cherry 2.3.5
 PRODUCT_COPY_FILES += \
@@ -68,6 +56,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libloc-rpc.so:system/lib/libloc-rpc.so \
     vendor/motorola/triumph/proprietary/GpsDeleter.apk:system/app/GpsDeleter.apk \
     vendor/motorola/triumph/proprietary/gps_log_tools.apk:system/app/gps_log_tools.apk
+
+# Google Media
+PRODUCT_COPY_FILES += \
+    vendor/motorola/triumph/proprietary/com.google.android.maps.jar:system/framework/com.google.android.media.effects.jar
 
 # OMX
 PRODUCT_COPY_FILES += \
@@ -129,6 +121,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libpdsm_atl.so:system/lib/libpdsm_atl.so \
     vendor/motorola/triumph/proprietary/libuim.so:system/lib/libuim.so
 
+# Sensors binaries
+PRODUCT_COPY_FILES += \
+    vendor/motorola/triumph/proprietary/geomagneticd:system/bin/geomagneticd \
+    vendor/motorola/triumph/proprietary/orientationd:system/bin/orientationd \
+    vendor/motorola/triumph/proprietary/proximityd:system/bin/proximityd \
+    vendor/motorola/triumph/proprietary/lightd:system/bin/lightd \
+    vendor/motorola/triumph/proprietary/thermald:system/bin/thermald \
+    vendor/motorola/triumph/proprietary/sensors.qcom.so:/system/lib/hw/sensors.triumph.so
 
 # Copyright (C) 2012 Qualcomm Developer Network
 #
