@@ -55,10 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libloc_ext.so:system/lib/libloc_ext.so \
     vendor/motorola/triumph/proprietary/libloc-rpc.so:system/lib/libloc-rpc.so
 
-# Google Media
-PRODUCT_COPY_FILES += \
-    vendor/motorola/triumph/proprietary/com.google.android.maps.jar:system/framework/com.google.android.media.effects.jar
-
 # MM
 PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/mm-abl-test:/system/bin/mm-abl-test \
